@@ -1,5 +1,5 @@
-# BS-BOF
-With this script you can perform the first connection step (fuzzing) against a server to successfully exploit a BuffOverFlow.
+**# BS-BOF**
+**With this script you can perform the first connection step (fuzzing) against a server to successfully exploit a BuffOverFlow.**
 
 In bs-bof.py:
 You only need python on your machine and correctly configure the IP address and the port (look for the fields called change me).
